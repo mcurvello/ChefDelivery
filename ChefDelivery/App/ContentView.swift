@@ -10,12 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "book")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Minha primeira aula")
+            NavigationBar()
+                .padding(.horizontal, 15)
+            ScrollView(.vertical, showsIndicators: false) {
+                VStack {
+                    OrderTypeGridView()
+                }
+            }
         }
-        .padding()
     }
 }
 
