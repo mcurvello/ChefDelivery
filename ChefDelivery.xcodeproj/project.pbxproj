@@ -23,6 +23,7 @@
 		7FAD5F5F2AABC1660008A8B0 /* StoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD5F5E2AABC1660008A8B0 /* StoreDetailView.swift */; };
 		7FAD5F612AABC3E60008A8B0 /* StoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD5F602AABC3E50008A8B0 /* StoreType.swift */; };
 		7FAD5F632AABC4310008A8B0 /* ProductType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD5F622AABC4310008A8B0 /* ProductType.swift */; };
+		7FAD5F662AABCC8B0008A8B0 /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD5F652AABCC8B0008A8B0 /* Double+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		7FAD5F5E2AABC1660008A8B0 /* StoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailView.swift; sourceTree = "<group>"; };
 		7FAD5F602AABC3E50008A8B0 /* StoreType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreType.swift; sourceTree = "<group>"; };
 		7FAD5F622AABC4310008A8B0 /* ProductType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductType.swift; sourceTree = "<group>"; };
+		7FAD5F652AABCC8B0008A8B0 /* Double+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		7FAD5F372AAA9A3F0008A8B0 /* ChefDelivery */ = {
 			isa = PBXGroup;
 			children = (
+				7FAD5F642AABCC700008A8B0 /* Extension */,
 				7FAD5F472AAA9C680008A8B0 /* App */,
 				7FAD5F4D2AAAD0D90008A8B0 /* Model */,
 				7FAD5F462AAA9C4B0008A8B0 /* NavigationBar */,
@@ -151,6 +154,14 @@
 			path = StoresView;
 			sourceTree = "<group>";
 		};
+		7FAD5F642AABCC700008A8B0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7FAD5F652AABCC8B0008A8B0 /* Double+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -225,6 +236,7 @@
 				7FAD5F632AABC4310008A8B0 /* ProductType.swift in Sources */,
 				7FAD5F562AAB57190008A8B0 /* CarouselItemView.swift in Sources */,
 				7FAD5F3B2AAA9A3F0008A8B0 /* ContentView.swift in Sources */,
+				7FAD5F662AABCC8B0008A8B0 /* Double+.swift in Sources */,
 				7FAD5F512AAAD1BD0008A8B0 /* DataSourceMock.swift in Sources */,
 				7FAD5F5D2AAB67530008A8B0 /* StoresContainerView.swift in Sources */,
 				7FAD5F532AAAD3E70008A8B0 /* OrderTypeView.swift in Sources */,

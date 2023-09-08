@@ -52,7 +52,7 @@ struct StoreDetailView: View {
                                 .bold()
                             Text(product.description)
                                 .foregroundColor(.black.opacity(0.5))
-                            Text("\(product.price)")
+                            Text(product.formattedPrice)
                         }
                         Spacer()
                         Image(product.image)
