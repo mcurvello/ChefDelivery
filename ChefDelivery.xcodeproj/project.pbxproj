@@ -20,6 +20,7 @@
 		7FAD5F582AAB58DB0008A8B0 /* CarouselTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD5F572AAB58DB0008A8B0 /* CarouselTabView.swift */; };
 		7FAD5F5B2AAB645F0008A8B0 /* StoreItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD5F5A2AAB645F0008A8B0 /* StoreItemView.swift */; };
 		7FAD5F5D2AAB67530008A8B0 /* StoresContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD5F5C2AAB67520008A8B0 /* StoresContainerView.swift */; };
+		7FAD5F5F2AABC1660008A8B0 /* StoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD5F5E2AABC1660008A8B0 /* StoreDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		7FAD5F572AAB58DB0008A8B0 /* CarouselTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTabView.swift; sourceTree = "<group>"; };
 		7FAD5F5A2AAB645F0008A8B0 /* StoreItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemView.swift; sourceTree = "<group>"; };
 		7FAD5F5C2AAB67520008A8B0 /* StoresContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresContainerView.swift; sourceTree = "<group>"; };
+		7FAD5F5E2AABC1660008A8B0 /* StoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 			children = (
 				7FAD5F5A2AAB645F0008A8B0 /* StoreItemView.swift */,
 				7FAD5F5C2AAB67520008A8B0 /* StoresContainerView.swift */,
+				7FAD5F5E2AABC1660008A8B0 /* StoreDetailView.swift */,
 			);
 			path = StoresView;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				7FAD5F5D2AAB67530008A8B0 /* StoresContainerView.swift in Sources */,
 				7FAD5F532AAAD3E70008A8B0 /* OrderTypeView.swift in Sources */,
 				7FAD5F5B2AAB645F0008A8B0 /* StoreItemView.swift in Sources */,
+				7FAD5F5F2AABC1660008A8B0 /* StoreDetailView.swift in Sources */,
 				7FAD5F4C2AAACC740008A8B0 /* OrderTypeGridView.swift in Sources */,
 				7FAD5F392AAA9A3F0008A8B0 /* ChefDeliveryApp.swift in Sources */,
 				7FAD5F492AAA9C9D0008A8B0 /* NavigationBar.swift in Sources */,
