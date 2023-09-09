@@ -11,7 +11,7 @@ struct ProductDetailView: View {
     
     let product: ProductType
     
-    
+    @State private var productQuantity = 1
     
     var body: some View {
         VStack {
@@ -19,7 +19,7 @@ struct ProductDetailView: View {
             
             Spacer()
             
-            ProductDetailQuantityView()
+            ProductDetailQuantityView(productQuantity: $productQuantity)
             
             Spacer()
             
