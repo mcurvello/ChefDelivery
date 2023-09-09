@@ -24,6 +24,7 @@
 		7FAD5F612AABC3E60008A8B0 /* StoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD5F602AABC3E50008A8B0 /* StoreType.swift */; };
 		7FAD5F632AABC4310008A8B0 /* ProductType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD5F622AABC4310008A8B0 /* ProductType.swift */; };
 		7FAD5F662AABCC8B0008A8B0 /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD5F652AABCC8B0008A8B0 /* Double+.swift */; };
+		7FAD5F692AAC0C000008A8B0 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD5F682AAC0C000008A8B0 /* ProductDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		7FAD5F602AABC3E50008A8B0 /* StoreType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreType.swift; sourceTree = "<group>"; };
 		7FAD5F622AABC4310008A8B0 /* ProductType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductType.swift; sourceTree = "<group>"; };
 		7FAD5F652AABCC8B0008A8B0 /* Double+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+.swift"; sourceTree = "<group>"; };
+		7FAD5F682AAC0C000008A8B0 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				7FAD5F4A2AAACC410008A8B0 /* GridView */,
 				7FAD5F542AAB56FB0008A8B0 /* CarouselView */,
 				7FAD5F592AAB64470008A8B0 /* StoresView */,
+				7FAD5F672AAC0BD00008A8B0 /* ProductView */,
 				7FAD5F3C2AAA9A400008A8B0 /* Assets.xcassets */,
 				7FAD5F3E2AAA9A400008A8B0 /* Preview Content */,
 			);
@@ -162,6 +165,14 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		7FAD5F672AAC0BD00008A8B0 /* ProductView */ = {
+			isa = PBXGroup;
+			children = (
+				7FAD5F682AAC0C000008A8B0 /* ProductDetailView.swift */,
+			);
+			path = ProductView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -233,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FAD5F4F2AAAD10B0008A8B0 /* OrderType.swift in Sources */,
+				7FAD5F692AAC0C000008A8B0 /* ProductDetailView.swift in Sources */,
 				7FAD5F632AABC4310008A8B0 /* ProductType.swift in Sources */,
 				7FAD5F562AAB57190008A8B0 /* CarouselItemView.swift in Sources */,
 				7FAD5F3B2AAA9A3F0008A8B0 /* ContentView.swift in Sources */,
